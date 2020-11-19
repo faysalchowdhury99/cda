@@ -1,0 +1,74 @@
+@media screen and (max-width:991px){
+    .header-content h1{
+        font-size: 4rem;
+    }
+    .nav-link{
+        margin-right: 0;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    #header-section{
+        text-align: center !important;
+    }
+    #about-section{
+        text-align: center !important;
+    }
+    #info-section{
+        text-align: center !important;
+    }
+    #info-2-section{
+        text-align: center !important;
+    }
+    .fixed-nav{
+        position: static !important;
+        background: transparent !important;
+        box-shadow: 0 1px 20px rgba(0, 0, 0, 0);
+    }
+}
+@media screen and (max-width:575px){
+    .header-content h1{
+        font-size: 3em;
+    }
+    .section{
+        padding: 7rem 0;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .heading .cd-words-wrapper b{
+        font-size: 3rem;
+        text-align: center !important;
+    }
+    .team-member-img{
+        width: 50% !important;
+    }
+    #myBtn{
+        right: 2rem;
+    }
+    .heading{
+        margin-top: 1rem;
+    }
+}
+
+
+/* Header Content Responsive */
+@media (min-width:576px){
+    .header-content {
+        width: 540px;
+    }
+}
+@media (min-width:768px){
+    .header-content {
+        width: 720px;
+    }
+}
+@media (min-width:992px){
+    .header-content {
+        width: 960px;
+    }
+}
+@media (min-width:1200px){
+    .header-content {
+        width: 1140px;
+    }
+}
